@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #A9F1DF, #FFBBBB);
+}
+
+.contact-txt {
+    width: 33rem;
+    display: inline-block;
+    margin-top: 2.5rem;
+    margin-left: 7rem;
+}
+
+.contact-txt .subtitle {
+    font-weight: bold;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+}
+
+.contact-txt .subtitle::before {
+    content: '';
+    position: absolute;
+    top: -18.5px;
+    left: -38px;
+    height: 3.5rem;
+    width: 3px;
+    background-color: black;
+    transform: rotate(-90deg);
+}
+
+.contact-txt .heading-2 {
+    font-weight: bold;
+    font-size: 3rem;
+    margin-left: 1rem;
+}
+
+.contact-txt .head-para {
+    width: 340px;
+    margin-top: 20px;
+    margin-left: 1rem;
+}
+
+/* ======== Contact Box ======== */
+
+.contact {
+    display: inline-block;
+    margin-top: 53px;
+    position: absolute;
+    right: 2rem; 
+    height: 350px;
+    width: 450px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.671);
+    background-color: #fff;
+}
+
+.y-name input[type="text"] {
+    width: 426px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    /* color: orangered; */
+    background-color: hwb(0 87% 13%);
+}
+
+.y-name input[type="text"]:focus {
+    outline: 1px solid orangered;
+}
+
+.mail input[type="text"] {
+    width: 426px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 8px;
+    /* color: orangered; */
+    background-color: hwb(0 87% 13%);
+}
+
+.mail input[type="text"]:focus {
+    outline: 1px solid orangered;
+}
+
+.message textarea{
+    width: 426px;
+    height: 180px;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 8px;
+    /* color: orangered; */
+    background-color: hwb(0 87% 13%);
+}
+
+.message textarea:focus {
+    outline: 1px solid orangered;
+}
+
+.btn button {
+    width: 426px;
+    height: 50px;
+    margin-top: 8px;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    background-color: black;
+    border: 2px;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.671);
+    cursor: pointer;
+}
+
+.btn button:hover {
+    background-color: rgb(80, 71, 71);
+}
+
+.btn button:active {
+    transform: scale(.97);
+    background-color: orangered;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(128, 128, 128, 0.253);
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(189, 14, 189);
+    border-radius: 20px;
+}
